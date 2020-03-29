@@ -58,8 +58,18 @@ button:hover{
  
 body , html {
     height: 100%;
+    scroll-behavior: smooth;
 }
 
+.container {
+    padding-top: 90px;
+}
+
+.solv{
+    border-radius: 20px;
+    width: 480px ;
+    height: 302px;
+}
 
 .hero-image {
     background-image: url("images/banner01.jpg");
@@ -80,8 +90,9 @@ body , html {
     margin: 100px;
 }
 
-.container {
-    padding: 0px 16px;
+.logobawah {
+    height: 50;
+    width: 150;
 }
 
 
