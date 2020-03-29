@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    background-color: #ffffff;
 }
 
 li, a, button{
@@ -15,13 +14,10 @@ li, a, button{
     text-decoration: none;
 }
 
-header {
-    display: flex;
+/* header {
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
-    height: 10%;
-}
+} */
 
 a:hover {
     color: #21b321;
@@ -59,10 +55,6 @@ button:hover{
 body , html {
     height: 100%;
     scroll-behavior: smooth;
-}
-
-.container {
-    padding-top: 90px;
 }
 
 .hero-image {
